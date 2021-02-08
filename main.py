@@ -38,13 +38,13 @@ if candidateName not in candidateChoice:
 
 print(candidateName)
 
-# #print results and export to notepad
-# with open(outputFile, "w") as txt_file:
+ #print results and export to notepad
+with open(outputFile, "w") as txt_file:
 
-#     votingResults = (
-#     f"Total votes are {totalVotes}"
-#     )
-#     print(votingResults, end="")
+    votingResults = (
+        f"Total votes are {totalVotes}"
+                    )
+    print(votingResults, end="")
 
-# # #save text file
-# txt_file.write(votingResults)
+#save text file
+txt_file.write(votingResults)
